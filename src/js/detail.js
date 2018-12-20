@@ -88,7 +88,7 @@ require(["../js/config.js"],function  () {
 					}
 				}
 				$.cookie("goodsinfo",JSON.stringify(this.goodinfo))
-				
+				alert('加入购物车成功！')
 			}
 			Magnifier(){
 				let mouse=$(".bigimg-p");
