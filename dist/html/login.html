@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>请登录</title>
+		<link rel="stylesheet" type="text/css" href="../style/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../static/font/font_xd/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../style/login.css"/>
+	</head>
+	<body>
+		<header> 
+			<div class="layout clearfix">
+				<a href="index.html" class="logo fl">
+					<img src="../static/img/loginlogo.jpg"/>
+				</a>
+				<div class="hd-right fr">
+					<span>
+						您好欢迎光临1号店，请
+						<a href="login.html">登录</a>
+					</span>
+					<div class="help-warp">
+						<a href="#">
+							<i></i>
+							&ensp;&ensp;&ensp;
+							帮助中心
+							<i class="iconfont icon-xialazhankai"></i>
+						</a>
+						<div class="help-down">
+							<ul>
+								<li><a href="#">包裹跟踪</a></li>
+								<li><a href="#">常见问题</a></li>
+								<li><a href="#">在线退换货</a></li>
+								<li><a href="#">在线投诉</a></li>
+							</ul>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</header>
+		<div class="login-wrap">
+			<div class="wrap clearfix">
+				<div class="login-pic fl">
+					<img src="../static/img/login_pic.jpg"/>
+				</div>
+				<div class="login fr">
+					<div class="login-title clearfix">
+						<span class="fl">1号店用户登录</span>
+						<a href="register.html" class="fr">注册新账号</a>
+					</div>
+					<div class="form_item">
+						<p>
+							<label class="iconfont icon-geren">&ensp;</label>
+							<input type="text"  id="userName" placeholder="请输入用户名" />
+						</p>
+						<span class="user-error error" data-val = "0"></span>
+					</div>
+					<div class="form_item">
+						<p>
+							<label class="iconfont icon-mima">&ensp;</label>
+							<input type="password"  id="passWord" placeholder="请输入密码" />
+						</p>
+						<span class="password-error error" data-val = "0"></span>
+					</div>
+					<div class="auto-login clearfix">
+						<span class="fl">
+							<input type="checkbox" name="" id="freelogin" value=""  />
+							自动登录
+						</span>
+						<a href="#" class="fr forget">忘记密码?</a>
+					</div>
+					<div class="login-btn">
+						登录
+					</div>
+					<div class="partner">
+						<p>更多合作网站账号登录</p>
+						<div class="clearfix">
+							<ul  class="import-p fl">
+								<li><a href="#"><img src="../static/img/qqicon.jpg"/></a></li>
+								<li><a href="#"><img src="../static/img/jingdongicon.jpg"/></a></li>
+								<li><a href="#"><img src="../static/img/weixin.jpg"/></a></li>
+								<li><a href="#"><img src="../static/img/wboicon.jpg"/></a></li>
+							</ul>
+							<a href="#" class="more fr">更多合作网站
+								<i class="iconfont icon-xialazhankai"></i>
+							</a>
+						</div>
+						
+						<ul class="gengduo clearfix">
+							<li><a href="#"><img src="../static/img/qqicon.jpg"/>人人</a></li>
+							<li><a href="#"><img src="../static/img/qqicon.jpg"/>人人</a></li>
+							<li><a href="#"><img src="../static/img/qqicon.jpg"/>人人</a></li>
+							<li><a href="#"><img src="../static/img/qqicon.jpg"/>人人</a></li>
+							<li><a href="#"><img src="../static/img/qqicon.jpg"/>人人</a></li>
+							<li><a href="#"><img src="../static/img/qqicon.jpg"/>人人</a></li>
+							<li><a href="#"><img src="../static/img/qqicon.jpg"/>人人</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="wrap">
+				<p>
+					<a href="#">沪ICP备16050468号</a>|
+					<a href="#">沪B2-20170039</a>|
+					<a href="#">营业执照</a>
+				</p>
+				<p>
+					Copyright © 1号店网上超市 2007-2018，All Rights Reserved
+				</p>
+			</div>
+		</div>	
+	<script src="../js/libs/require.js" data-main = "../js/login.js"></script>
+	</body>
+</html>

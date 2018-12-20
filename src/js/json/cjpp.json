@@ -1,0 +1,44 @@
+{
+	"cjpp":[
+		{
+			"bjimg":"//img20.360buyimg.com/img/jfs/t1/27708/40/951/80720/5c0e1da0Ec80bca4b/859080a96873d8df.jpg",
+			"gslogo":"http://img14.360buyimg.com/img/jfs/t1/18955/36/957/5543/5c0e19caE3a06592e/91f85e3b62fbbe1f.jpg",
+			"gsname":"康师傅",
+			"gssale":"满69减10",
+			"shangpin1":"//img10.360buyimg.com/img/jfs/t6814/10/1234829379/153725/c63af9d4/597eef69Nae52f868.jpg",
+			"shangpin2":"//img20.360buyimg.com/img/jfs/t1/5781/10/2059/236309/5b95ebe5E1c874910/d1c67a9c12819a9c.jpg",
+			"shangpin3":"//img20.360buyimg.com/img/jfs/t1/5036/39/9630/337271/5bad817eE618d51a2/94587cf957892112.jpg"
+		},
+		{	
+			"bjimg":"//img12.360buyimg.com/img/jfs/t1/8077/32/8637/80797/5c0f6baaE28eb4abe/5f912917984719c4.jpg",
+			"gslogo":"//img30.360buyimg.com/img/jfs/t1/29088/7/1110/8271/5c0f69f9Eca34b315/b5260ae0b096fe2f.jpg",
+			"gsname":"乐高",
+			"gssale":"满69减10",
+			"shangpin1":"//img20.360buyimg.com/img/jfs/t14683/62/753237467/121472/b7dc13b/5a388979N1c7a08f8.jpg",
+			"shangpin2":"//img13.360buyimg.com/img/jfs/t12559/311/2410296533/366321/e0f4b6a7/5a3c750aN8f6cb046.jpg",
+			"shangpin3":"//img13.360buyimg.com/img/jfs/t5233/30/404523175/134535/4e8bfe20/58feb541Nd1cc44e0.jpg"
+		}
+	],
+	"cjpl":[
+		
+		{
+			"bjimg":"//img13.360buyimg.com/img/jfs/t1/18274/8/299/31239/5c08d99cEc936a881/6667faed9b4d3777.jpg",
+			"gslogo":"",
+			"gsname":"个人护理",
+			"gssale":"爆款直降",
+			"shangpin1":"//img20.360buyimg.com/img/jfs/t16744/364/2016377696/342848/c897ce64/5ae29d8dN4487d078.jpg",
+			"shangpin2":"//img30.360buyimg.com/img/jfs/t22321/274/138559237/281940/44ad4b00/5afe5bc8N0d60e54d.jpg",
+			"shangpin3":"//img12.360buyimg.com/img/jfs/t20893/116/1124924329/296390/ba063ce/5b20bd28Nc7bf94a4.jpg"
+		},
+		{
+			"bjimg":"//img30.360buyimg.com/img/jfs/t1/23848/11/313/41999/5c08daf0Ed8487266/78edcd318394b75c.jpg",
+			"gslogo":"http://img14.360buyimg.com/img/jfs/t1/18955/36/957/5543/5c0e19caE3a06592e/91f85e3b62fbbe1f.jpg",
+			"gsname":"休闲零食",
+			"gssale":"爆款直降",
+			"shangpin1":"//img30.360buyimg.com/img/jfs/t1/24536/15/153/298001/5c07729cEcf2c5875/3a72a9ff49bac754.jpg",
+			"shangpin2":"//img30.360buyimg.com/img/jfs/t1/24536/15/153/298001/5c07729cEcf2c5875/3a72a9ff49bac754.jpg",
+			"shangpin3":"//img20.360buyimg.com/img/jfs/t1/5036/39/9630/337271/5bad817eE618d51a2/94587cf957892112.jpg"
+		}
+	
+	]
+}

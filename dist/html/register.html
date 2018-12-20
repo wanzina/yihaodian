@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="../style/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../static/font/font_xd/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../style/login.css"/>
+		<link rel="stylesheet" type="text/css" href="../style/register.css"/>
+	</head>
+	<body>
+		<header> 
+			<div class="layout clearfix">
+				<a href="index.html" class="logo fl">
+					<img src="../static/img/loginlogo.jpg"/>
+				</a>
+				<div class="hd-right fr">
+					<span>
+						您好欢迎光临1号店，请
+						<a href="login.html">登录</a>
+					</span>
+					<div class="help-warp">
+						<a href="#">
+							<i></i>
+							&ensp;&ensp;&ensp;
+							帮助中心
+							<i class="iconfont icon-xialazhankai"></i>
+						</a>
+						<div class="help-down">
+							<ul>
+								<li><a href="#">包裹跟踪</a></li>
+								<li><a href="#">常见问题</a></li>
+								<li><a href="#">在线退换货</a></li>
+								<li><a href="#">在线投诉</a></li>
+							</ul>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</header>
+		<div class="register-wrap">
+			<div class="wrap clearfix">
+				<div class="register">
+					<div class="register-title">
+						1号店用户注册
+					</div>
+					<div class="form_item userName">
+						<label>用户名</label>
+						<input type="text"  id="userName" placeholder="用户名" />
+						<div class="user-error prompt  err-bar" data-val = "0">
+							<i></i>
+							<span>4-20位字符，可以是中文、英文、数字、下划线</span>
+						</div>
+					</div>
+					<div class="form_item iphone">
+						<label>手机号</label>
+						<input type="text"  id="iphone" placeholder="手机号" />
+						<div class="iphone-error prompt err-bar" data-val = "0">
+							<i></i>
+							<span>请填写正确的手机号，以便接收包裹</span>
+						</div>
+					</div>
+					<div class="form_item messge">
+						<label>短信验证码</label>
+						<input type="text"  id="messge" placeholder="短信验证码" />
+						<span class="get-code fr">获取验证码</span>
+						<div class="messge-error err-bar" data-val = "0">
+							<i></i>
+							<span></span>
+						</div>
+					</div>
+					<div class="form_item setpassWord">
+						<label>设置密码</label>
+						<input type="password"  id="setpassWord" placeholder="设置密码" />
+						<div class="set-password prompt err-bar" data-val = "0">
+							<i></i>
+							<span>6-20位字符，可以是英文、数字、下划线</span>
+						</div>
+					</div>
+					<div class="form_item affirmpassWord">
+						<label>确认密码</label>
+						<input type="password"  id="affirmpassWord" placeholder="确认密码" />
+						<div class="affirm-password prompt err-bar" data-val = "0">
+							<i></i>
+							<span>请再次输入密码</span>
+						</div>
+					</div>
+					<div class="agreement  clearfix">
+						点击注册表示您同意1号店
+						<a href="#" class="xieyi">《服务协议及隐私声明》</a>
+					</div>
+					<div class="register-btn">
+						同意协议并注册
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="wrap">
+				<p>
+					<a href="#">沪ICP备16050468号</a>|
+					<a href="#">沪B2-20170039</a>|
+					<a href="#">营业执照</a>
+				</p>
+				<p>
+					Copyright © 1号店网上超市 2007-2018，All Rights Reserved
+				</p>
+			</div>
+		</div>	
+	<script src="../js/libs/require.js" data-main = "../js/register.js"></script>
+	</body>
+</html>
+

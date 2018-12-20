@@ -1,0 +1,172 @@
+.layout {
+  width: 1070px;
+  margin: 0 auto; }
+
+.clearfix {
+  zoom: 1; }
+
+input {
+  outline: none; }
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  overflow: hidden; }
+
+body {
+  background: #fcfcfc; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+header {
+  padding: 16px;
+  border: 1px solid #e1e1e1;
+  background: #fff; }
+  header .logo {
+    display: block;
+    width: 55px;
+    height: 55px; }
+    header .logo img {
+      height: 55px; }
+  header .hd-right {
+    color: #999;
+    font-size: 12px;
+    line-height: 30px; }
+    header .hd-right span a {
+      color: #06c;
+      margin: 6px; }
+    header .hd-right .help-warp {
+      display: inline-block;
+      position: relative; }
+      header .hd-right .help-warp a {
+        color: #999; }
+        header .hd-right .help-warp a i {
+          color: #999; }
+      header .hd-right .help-warp a:hover {
+        color: #FF4040; }
+      header .hd-right .help-warp .help-down {
+        display: none;
+        top: 0;
+        left: 0;
+        z-index: 333;
+        position: absolute;
+        width: 98px;
+        padding-top: 26px;
+        border: 1px solid #ccc; }
+        header .hd-right .help-warp .help-down li {
+          background: #fff;
+          line-height: 25px;
+          border-top: 1px dashed #ccc;
+          text-align: center; }
+
+.login-wrap {
+  padding-top: 26px; }
+  .login-wrap .wrap {
+    width: 980px;
+    margin: 0 auto; }
+    .login-wrap .wrap .login-pic {
+      width: 510px;
+      height: 315px;
+      margin-top: 45px; }
+      .login-wrap .wrap .login-pic img {
+        width: 510px;
+        height: 315px; }
+    .login-wrap .wrap .login {
+      padding: 45px 35px 20px 35px;
+      background: #fff;
+      width: 330px; }
+      .login-wrap .wrap .login .login-title, .login-wrap .wrap .login .auto-login {
+        height: 30px;
+        line-height: 30px; }
+        .login-wrap .wrap .login .login-title span, .login-wrap .wrap .login .auto-login span {
+          font-size: 14px;
+          color: #666;
+          font-weight: bold; }
+        .login-wrap .wrap .login .login-title a, .login-wrap .wrap .login .auto-login a {
+          font-size: 14px; }
+      .login-wrap .wrap .login .form_item {
+        margin-bottom: 10px; }
+        .login-wrap .wrap .login .form_item label {
+          color: #666; }
+        .login-wrap .wrap .login .form_item p {
+          width: 290px;
+          height: 24px;
+          line-height: 24px;
+          padding: 14px 18px;
+          border: 1px solid #dedede;
+          color: #666; }
+          .login-wrap .wrap .login .form_item p input {
+            padding: 0 6px;
+            width: 230px;
+            border: none; }
+        .login-wrap .wrap .login .form_item span {
+          display: block;
+          line-height: 30px;
+          font-size: 12px;
+          color: #FF3C3C; }
+      .login-wrap .wrap .login .auto-login {
+        margin: 10px 0; }
+        .login-wrap .wrap .login .auto-login span {
+          color: #999;
+          font-weight: normal; }
+        .login-wrap .wrap .login .auto-login a {
+          color: #999; }
+      .login-wrap .wrap .login .login-btn {
+        cursor: pointer;
+        width: 330px;
+        height: 52px;
+        line-height: 52px;
+        text-align: center;
+        font-size: 16px;
+        background: #ff3c3c;
+        border-radius: 3px;
+        color: #fff;
+        font-weight: bold; }
+      .login-wrap .wrap .login .partner p {
+        padding: 15px 0;
+        color: #666; }
+      .login-wrap .wrap .login .partner .import-p li {
+        float: left;
+        margin-right: 20px;
+        height: 35px;
+        width: 32px; }
+        .login-wrap .wrap .login .partner .import-p li a {
+          display: inline-block;
+          height: 35px;
+          width: 32px;
+          color: #666; }
+      .login-wrap .wrap .login .partner .more {
+        font-size: 12px;
+        line-height: 50px; }
+        .login-wrap .wrap .login .partner .more i {
+          color: #666;
+          font-size: 12px; }
+      .login-wrap .wrap .login .partner .gengduo {
+        display: none;
+        margin-top: 15px; }
+        .login-wrap .wrap .login .partner .gengduo li {
+          float: left;
+          width: 82px;
+          margin-bottom: 10px; }
+          .login-wrap .wrap .login .partner .gengduo li a {
+            display: inline-block;
+            height: 16px; }
+            .login-wrap .wrap .login .partner .gengduo li a img {
+              height: 16px;
+              width: 16px; }
+
+.footer .wrap {
+  width: 980px;
+  margin: 50px auto 0; }
+  .footer .wrap p {
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #666; }
+    .footer .wrap p a {
+      color: #666; }

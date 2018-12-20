@@ -1,0 +1,231 @@
+.layout{
+    width: 1070px;
+    margin: 0 auto;
+}
+.clearfix{
+    zoom: 1;
+}
+input{
+    outline:none;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+    
+}
+
+body{
+     background: #fcfcfc;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+header{
+    padding: 16px;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    .logo{
+        display: block;
+        width: 55px;
+        height: 55px;
+        img{
+            
+            height: 55px;
+        }
+    }
+    .hd-right{
+        color: #999;
+        font-size: 12px;
+        line-height: 30px;
+        span{
+            a{
+                color: #06c;
+                margin: 6px;
+                
+            }
+            
+        }
+        .help-warp{
+            display: inline-block;
+            position: relative;
+           a{
+               color: #999;
+               i{
+                    color: #999;
+                }
+           }
+           a:hover{
+               color: #FF4040;
+           }
+           .help-down{
+               display: none;
+               top: 0;
+               left: 0;
+               z-index: 333;
+               position: absolute;
+               width: 98px;
+               padding-top:26px ;
+               border: 1px solid #ccc;
+               li{
+                   background: #fff;
+                   line-height: 25px;
+                   border-top:1px dashed #ccc ;
+                   text-align: center;
+                   
+               }
+           }
+           
+        }
+    }
+}
+.login-wrap{
+   
+   padding-top: 26px;
+   .wrap{
+      width: 980px;
+      margin: 0 auto;
+      .login-pic{
+          width: 510px;
+          height: 315px;
+          margin-top: 45px;
+          img{
+              width: 510px;
+              height: 315px;
+          }
+      }
+      .login{
+          padding: 45px 35px 20px 35px;
+          background: #fff;
+          width: 330px;
+          .login-title,.auto-login{
+              height: 30px;
+              line-height: 30px;
+              span{
+                  font-size: 14px;
+                  color: #666;
+                  font-weight: bold;
+              }
+              a{
+                  font-size: 14px;
+              }
+          }
+          .form_item{
+              margin-bottom: 10px;
+              label{
+                  color: #666;
+              }
+              p{
+                  width: 290px;
+                  height: 24px;
+                  line-height: 24px;
+                  padding: 14px 18px;
+                  border: 1px solid #dedede;
+                  color: #666;
+                 
+                  
+                  input{
+                       padding: 0 6px;
+                       width: 230px;
+                      border: none;
+                  }
+              }
+              span{
+                  display: block;
+                    line-height: 30px;
+                    font-size: 12px;
+                    color: #FF3C3C;
+                }
+          }
+          
+          .auto-login{
+              margin: 10px 0;
+              span{
+                 color: #999; 
+                  font-weight: normal;
+              }
+              a{
+                  color: #999;
+              }
+          }
+          .login-btn{
+              cursor: pointer;
+              width: 330px;
+              height: 52px;
+              line-height: 52px;
+              text-align: center;
+              font-size: 16px;
+              background: #ff3c3c;
+              border-radius: 3px;
+              color: #fff;
+              font-weight: bold;
+          }
+          .partner{
+              p{
+                  padding: 15px 0;
+                  color: #666;
+              }
+              .import-p{
+                  li{
+                      float: left;
+                      margin-right: 20px;
+                      height: 35px;
+                      width: 32px;
+                      a{
+                          display: inline-block;
+                           height: 35px;
+                           width: 32px;
+                           color: #666;
+                           
+                      }
+                  }
+              }
+              .more{
+                  font-size: 12px;
+                  line-height: 50px;
+                   i{
+                       color: #666;
+                       font-size:12px ;
+                   }
+              }
+              .gengduo{
+                  display: none;
+                  margin-top:15px ;
+                  li{
+                      float: left;
+                      width: 82px;
+                      margin-bottom: 10px;
+                      a{
+                          display: inline-block;
+                          height: 16px;
+                          img{
+                              height: 16px;
+                              width: 16px;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+   }
+}
+.footer{
+    .wrap{
+        width: 980px;
+        margin: 50px auto 0;
+        p{
+            line-height: 25px;
+            text-align: center;
+            font-size:12px ;
+            color: #666;
+            a{
+                color: #666;
+            }
+        }
+    }
+}
